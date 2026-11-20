@@ -1,5 +1,7 @@
+from datetime import datetime
 print("Hello, Github!")
 print("This is my first Python repository")
 name = input("What is your name?")
 print(f"Hello, {name}!")
 print("This is how I commit changes")
+print("Today is:", datetime.now().strftime("%Y-%m-%d %H:%M"))
